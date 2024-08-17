@@ -145,7 +145,7 @@ export const SKILLS = [
   {
     icon: <FaAws className="text-4xl text-orange-700 lg:text-5xl" />,
     name: "Amazon Web Services",
-    experience: "1+year",
+    experience: "<1year",
   },
   {
     icon: <SiPowerbi className="text-4xl text-yellow-500 lg:text-5xl" />,
