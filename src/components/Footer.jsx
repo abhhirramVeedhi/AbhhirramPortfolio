@@ -1,6 +1,8 @@
+
 import logo from "../assets/logo.png";
 import { SOCIAL_MEDIA_LINKS } from "../constants";
 import { motion } from "framer-motion";
+
 const Footer = () => {
   return (
     <div className="mb-8 mt-20">
@@ -27,7 +29,7 @@ const Footer = () => {
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900"
+            className="text-white hover:text-gray-300 text-3xl"
           >
             {link.icon}
           </motion.a>
