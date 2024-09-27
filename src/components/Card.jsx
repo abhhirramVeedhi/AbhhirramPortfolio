@@ -6,7 +6,7 @@ import { TbEyeShare } from "react-icons/tb";
 const Card = () => {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1Qvb-O4-0CpvzRn570rlJrwNi-4oUTFLU/view?usp=sharing",
+      "https://tinyurl.com/p97cm9n8",
       "_blank"
     );
   };
