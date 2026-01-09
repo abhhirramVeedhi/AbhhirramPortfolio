@@ -16,7 +16,7 @@ import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiSpringboot , SiExpress, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa"; // Use 'fa' for Fa icons
 import { TbBrandLeetcode, TbBrandCpp } from "react-icons/tb"; // Correct import for TbBrandLeetcode
 import { CgMail } from "react-icons/cg";
@@ -98,9 +98,29 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
+    icon: <FaJava className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Java",
+    experience: "1+year",
+  },
+  {
+    icon: <SiSpringboot className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Spring - Spring Boot",
+    experience: "1+ year",
+  },
+  {
+    icon: <FaAws className="text-4xl text-orange-700 lg:text-5xl" />,
+    name: "Amazon Web Services",
+    experience: "<1year",
+  },
+  {
     icon: <FaPython className="text-4xl text-yellow-600 lg:text-5xl" />,
     name: "Python",
     experience: "2+years",
+  },
+  {
+    icon: <FaJs className="text-4xl text-yellow-300 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "1.5+years",
   },
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
@@ -113,49 +133,20 @@ export const SKILLS = [
     experience: "1.5+years",
   },
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+years",
-  },
-  {
     icon: <FaNodeJs className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Node.js",
     experience: "1.5+years",
   },
-  {
-    icon: <FaJs className="text-4xl text-yellow-300 lg:text-5xl" />,
-    name: "JavaScript",
-    experience: "1.5+years",
-  },
+  
   {
     icon: <SiMysql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "MySQL",
     experience: "1+year",
   },
   {
-    icon: <TbBrandCpp className="text-4xl text-green-400 lg:text-5xl" />,
-    name: "C++",
-    experience: "1+year",
-  },
-  {
-    icon: <FaJava className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "Java",
-    experience: "1+year",
-  },
-  {
-    icon: <FaAws className="text-4xl text-orange-700 lg:text-5xl" />,
-    name: "Amazon Web Services",
-    experience: "<1year",
-  },
-  {
-    icon: <SiPowerbi className="text-4xl text-yellow-500 lg:text-5xl" />,
-    name: "PowerBI",
-    experience: "<1year",
-  },
-  {
-    icon: <SiPandas className="text-4xl text-white-700 lg:text-5xl" />,
-    name: "Python Pandas",
-    experience: "<1year",
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "1.5+years",
   },
 ];
 
