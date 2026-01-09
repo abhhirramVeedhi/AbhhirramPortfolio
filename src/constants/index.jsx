@@ -162,7 +162,7 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     title: "Software Engineer Consultant",
-    company: "Encora",
+    company: "@Encora - iOS Developer (ANZ Bank)",
     duration: "August 2025 - Present",
     description:
       "Worked as a Software Engineer Consultant at Encora with hands-on experience across full-stack and mobile development. Completed intensive training in Java Full Stack and iOS Development. Deployed as a SwiftUI Developer for the ANZ Bank project, contributing to building scalable and high-performance iOS applications. Gained strong experience in backend technologies including Java, Spring, Spring Boot, Kafka, Microservices architecture, and cloud services on AWS. Collaborated with cross-functional teams following agile methodologies to deliver enterprise-grade solutions.",
