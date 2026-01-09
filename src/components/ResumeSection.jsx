@@ -15,7 +15,7 @@ const ResumeSection = () => {
 
   const handleCardClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1E21AocvT23gjoxobrdtP_yvJQ542vIrM/view",
+      "https://drive.google.com/file/d/1Uocj8nqo2W6I6V0ZOJo_kTfpi-KJUuXb/view?usp=sharing",
       "_blank"
     );
   };
