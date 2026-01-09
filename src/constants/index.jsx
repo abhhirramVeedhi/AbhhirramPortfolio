@@ -26,7 +26,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   // { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
-  // { label: "Experience", href: "#work" },
+  { label: "Experience", href: "#work" },
   { label: "Education", href: "#education" },
   { label: "Certifications", href: "#certifications" },
   { label: "Resume", href: "#resume" },
@@ -159,29 +159,16 @@ export const SKILLS = [
   },
 ];
 
-// export const EXPERIENCES = [
-//   {
-//     title: "Lead Frontend Developer",
-//     company: "Innovative Tech Solutions",
-//     duration: "July 2020 - Present",
-//     description:
-//       "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-//   },
-//   {
-//     title: "Frontend Engineer",
-//     company: "Digital Creations",
-//     duration: "February 2016 - June 2020",
-//     description:
-//       "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-//   },
-//   {
-//     title: "Junior Web Developer",
-//     company: "Bright Future Technologies",
-//     duration: "August 2014 - January 2016",
-//     description:
-//       "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
-//   },
-// ];
+export const EXPERIENCES = [
+  {
+    title: "Software Engineer Consultant",
+    company: "Encora",
+    duration: "August 2025 - Present",
+    description:
+      "Worked as a Software Engineer Consultant at Encora with hands-on experience across full-stack and mobile development. Completed intensive training in Java Full Stack and iOS Development. Deployed as a SwiftUI Developer for the ANZ Bank project, contributing to building scalable and high-performance iOS applications. Gained strong experience in backend technologies including Java, Spring, Spring Boot, Kafka, Microservices architecture, and cloud services on AWS. Collaborated with cross-functional teams following agile methodologies to deliver enterprise-grade solutions.",
+  },
+];
+
 
 export const EDUCATION = [
   {
