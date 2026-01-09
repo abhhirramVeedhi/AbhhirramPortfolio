@@ -14,7 +14,7 @@ const ResumeSection = () => {
   };
 
   const handleCardClick = () => {
-  window.open("/resume_website.pdf", "_blank", "noopener,noreferrer");
+  window.open("/AbhhirramResume.pdf", "_blank", "noopener,noreferrer");
 };
 
 
