@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-// import Bio from "./components/Bio";
+import Bio from "./components/Bio";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import EducationSection from "./components/EducationSection";
@@ -18,7 +18,7 @@ const App = () => {
         <Hero />
         <Navbar />
         <Projects />
-        {/* <Bio /> */}
+        <Bio /> 
         <Skills />
         <WorkExperience /> 
         <EducationSection />
