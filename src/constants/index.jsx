@@ -24,7 +24,7 @@ import { SiMysql, SiPowerbi, SiPandas } from "react-icons/si";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
-  // { label: "Bio", href: "#bio" },
+  { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#work" },
   { label: "Education", href: "#education" },
@@ -92,9 +92,14 @@ export const PROJECTS = [
   },
 ];
 
-// export const BIO = [
-//   "I’m Abhhirram Veedhi, a final-year student at Vellore Institute of Technology, Vellore, pursuing a Bachelor of Technology in Information Technology with a CGPA of 8.44. I’m passionate about technology and development, and I’ve had the opportunity to work on several exciting projects. I developed a Full Stack inventory management system using MERN, created a T20 cricket data analytics dashboard with Power BI, and built a Speech Emotion Recognition system using Python. My skills span Python, JavaScript, and various frameworks like React JS and Power BI. I’ve also earned certifications in AWS Cloud Practitioner and MERN Full Stack. Beyond tech, I enjoy hiking and karate, with notable achievements including summiting Kalsubai Mountain and earning an Orange Belt in karate.",
-// ];
+export const BIO = [
+  "I’m Abhhirram Veedhi, a Software Engineer Consultant at Encora with a strong foundation in full-stack and mobile application development. I hold a Bachelor of Technology in Information Technology from Vellore Institute of Technology (VIT), Vellore, with a CGPA of 8.48. At Encora, I underwent comprehensive training in Java Full Stack and iOS development and am currently deployed at ANZ Bank as a SwiftUI Developer, where I contribute to building scalable, secure, and high-performance iOS applications.",
+  
+  "My technical expertise includes iOS development using Swift and SwiftUI, backend development with Java, Spring, Spring Boot, Microservices architecture, and event-driven systems using Kafka. I also have hands-on experience with cloud technologies, particularly AWS, and a solid understanding of building and deploying enterprise-grade applications. My prior academic and project experience spans full-stack web development, data analytics, and machine learning, giving me a well-rounded engineering perspective.",
+  
+  "I am passionate about building high-quality software, writing clean and maintainable code, and collaborating effectively in agile, cross-functional teams. I am actively seeking opportunities where I can leverage my skills in iOS development, Java full-stack engineering, and cloud-native systems to deliver impactful and scalable software solutions."
+];
+
 
 export const SKILLS = [
   {
@@ -156,7 +161,7 @@ export const EXPERIENCES = [
     company: "@Encora - iOS Developer (ANZ Bank)",
     duration: "August 2025 - Present",
     description:
-      "Worked as a Software Engineer Consultant at Encora with hands-on experience across full-stack and mobile development. Completed intensive training in Java Full Stack and iOS Development. Deployed as a SwiftUI Developer for the ANZ Bank project, contributing to building scalable and high-performance iOS applications. Gained strong experience in backend technologies including Java, Spring, Spring Boot, Kafka, Microservices architecture, and cloud services on AWS. Collaborated with cross-functional teams following agile methodologies to deliver enterprise-grade solutions.",
+      "Working as a Software Engineer Consultant at Encora with hands-on experience across full-stack and mobile development. Completed intensive training in Java Full Stack and iOS Development. Deployed as a SwiftUI Developer for the ANZ Bank project, contributing to building scalable and high-performance iOS applications. Gained strong experience in backend technologies including Java, Spring, Spring Boot, Kafka, Microservices architecture, and cloud services on AWS. Collaborated with cross-functional teams following agile methodologies to deliver enterprise-grade solutions.",
   },
 ];
 
