@@ -14,9 +14,9 @@ const ResumeSection = () => {
   };
 
   const handleCardClick = () => {
-    window.open("./resume_website.pdf", "_blank");
+  window.open("/resume_website.pdf", "_blank", "noopener,noreferrer");
+};
 
-  };
 
   return (
     <section id="resume" className="py-8">
