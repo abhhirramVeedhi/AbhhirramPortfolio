@@ -14,10 +14,8 @@ const ResumeSection = () => {
   };
 
   const handleCardClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1Uocj8nqo2W6I6V0ZOJo_kTfpi-KJUuXb/view",
-      "_blank"
-    );
+    window.open("./resume_website.pdf", "_blank");
+
   };
 
   return (
